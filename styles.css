@@ -1,0 +1,227 @@
+html  {
+
+  background-color:#000;
+}
+
+a {
+color:#fff;
+text-decoration:none;
+}
+
+a:hover {
+  color:#fff;
+}
+
+a:visited {
+  color:#fff;
+}
+
+a:active {
+  color:#fff;
+}
+
+a:link {
+  color:#fff;
+}
+
+.words  {
+  background-color:#000;
+  padding:20px;
+  color:#fff;
+}
+
+.words2  {
+  padding:20px;
+  color:#fff;
+}
+
+.words6  {
+  padding:20px;
+  color:#fff;
+}
+
+.blackText  {
+  color:#000;
+}
+
+.whiteText  {
+  color:#fff;
+}
+
+#wrap {
+  width: 99vw;
+  margin: 0px auto;
+}
+
+#hands  {
+  position: absolute;
+  top: vh;
+  left: vw;
+
+}
+
+/* page 1 */
+
+#body {
+  position:absolute;
+  top: calc(50% - 48px);
+  left: 0vw;
+
+}
+
+#document {
+  position:absolute;
+  top: calc(50% - 48px);
+  left: calc(50% - 70px);
+}
+
+#photograph {
+  position:absolute;
+  top: calc(50% - 48px);
+  left: calc(100% - 134px);
+}
+
+/* page 2 */
+
+#body2 {
+  position:absolute;
+  top: 25vh;
+  left: 0vw;
+}
+
+#document2 {
+  position:absolute;
+  top: calc(50% - 48px);
+  left: calc(50% - 70px);
+}
+
+#photograph2 {
+  position:absolute;
+  top: 25vh;
+  left: 70vw;
+}
+
+/* page 3 */
+
+#body3 {
+  position:absolute;
+  top: 28vh;
+  left: 2vw;
+}
+
+/*
+#document3 {
+  position:absolute;
+  top: calc(50% - 48px);
+  left: calc(50% - 70px);
+}*/
+
+#photograph3 {
+  position:absolute;
+  top: 5vh;
+  left: 700px;
+}
+
+/* page 4 */
+
+
+/* page 5 */
+
+#body5 {
+  position:absolute;
+  top: 15vh;
+  left: 2vw;
+}
+
+#photograph5 {
+  position:absolute;
+  top: 30vh;
+  left: 40vw;
+}
+
+/* page 6 */
+
+#body6 {
+  color:#000;
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  width: 452px;
+  height: 293px;
+  background-image:url(images/esraa6-bg.jpg);
+  padding:20px;
+}
+
+#document6 {
+  position:absolute;
+  top: 240px;
+  left: 334px;
+  text-align:center;
+  letter-spacing: 0.025em;
+
+}
+
+#photograph6 {
+  /*position:absolute;*/
+  top: 340px;
+  left: 675px;
+  position:relative;
+}
+
+/* page 7 */
+
+#body7 {
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  background-color:#000;
+  z-index:6000;
+}
+
+#document7 {
+  position:absolute;
+  top: 250px;
+  left: 350px;
+  z-index:9000;
+  background-color:#000;
+}
+
+#photograph7 {
+  position:absolute;
+  top: 540px;
+  left: 750px;
+  z-index:9999;
+  background-color:#000;
+}
+
+
+/* page 8 */
+
+#body8 {
+  position:absolute;
+  top: 10vh;
+  left: 20px;
+
+  z-index:6000;
+}
+
+#document8 {
+  position:absolute;
+  top: 28vh;
+  left: 370px;
+  z-index:9000;
+
+}
+
+#photograph8 {
+  position:absolute;
+  top: 85vh;
+  left: 950px;
+  z-index:9999;
+
+}
+
+#grief  {
+  margin-left:400px;
+  bottom:375px;
+}
